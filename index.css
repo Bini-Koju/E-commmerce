@@ -13,10 +13,12 @@ header {
     background-color: #ffffff;
     height: 80px;
     border-bottom: 1px solid #f5f1f1;
+
 }
 
-.myntralogo {
-    height: 50px;
+.logo {
+    height: 80px;
+
 }
 
 .logo-container {
@@ -91,6 +93,19 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: inherit;
+    text-decoration: none;
+}
+
+.bagItems {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: -44px;
+    left: 20px;
+    text-align: center;
+    cursor: pointer;
 }
 
 
@@ -98,6 +113,89 @@ header {
 
 
 /* main section css */
+#container {
+    margin: 20px 5%;
+    width: 90%;
+}
+
+.itemContainer {
+    width: 300px;
+    margin: 20px;
+
+}
+
+.itemImg {
+    width: 100%;
+    height: 350px;
+}
+
+.rating {
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.company {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000000a4;
+}
+
+.itemName {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    white-space: nowrap;
+    text-transform: capitalize;
+    overflow: hidden;
+    color: rgb(45, 40, 40);
+}
+
+.price {
+    font-size: 17px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: hsl(210, 5%, 24%);
+    font-weight: 450;
+    margin-top: 2px;
+    color: #535766
+}
+
+.currentPrice {
+    font-size: 21px;
+    font-weight: 500;
+    margin-right: 6px;
+
+}
+
+.originalPrice {
+    font-size: 19px;
+    color: rgb(120, 70, 70);
+    text-decoration: line-through;
+    margin-right: 0px;
+}
+
+.discount {
+    color: rgb(56, 22, 22);
+}
+
+.addBtn {
+    background-color: rgb(45, 77, 45);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
 .banner {
     margin: 15px 0px;
 }
@@ -134,7 +232,7 @@ header {
 .foot {
     display: flex;
     justify-content: space-evenly;
-    background-color: #FAFBFC;
+    background-color: #d9dde0;
 }
 
 .footerContainer {
@@ -168,6 +266,7 @@ header {
 .copyright {
     text-align: center;
     padding: 15px;
-    color: #94969f;
+    color: #000000;
+    background-color: #b7bac0;
     font-size: 20px;
 }
